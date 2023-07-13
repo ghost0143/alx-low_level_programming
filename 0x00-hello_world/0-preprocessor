@@ -1,11 +1,2 @@
 #!/bin/bash
-
-C_FILE="$CFILE"
-
-# Run the C file through the preprocessor and save the output to 'c'
-gcc -E "$C_FILE" -o c
-
-# Display the content of the 'c' file
-cat c
-
-export CFILE=main.c
+export CFILE=0-main.c ; ./0-preprocessor
