@@ -24,7 +24,7 @@ int main(void)
 		fib = fib1 + fib2;
 		printf(", %d", fib);
 
-		/* Mettre à jour les valeurs pour le calcul du prochain nombre de Fibonacci */
+		/* Mettre à jour les valeurs pour nombre de Fibonacci */
 		fib1 = fib2;
 		fib2 = fib;
 
@@ -37,5 +37,5 @@ int main(void)
 
 	printf("\n");
 
-	return 0;
+	return (0);
 }
