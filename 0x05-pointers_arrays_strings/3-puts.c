@@ -7,10 +7,11 @@
  */
 void _puts(char *str)
 {
-	char c;
-	while ((c = *str++))
-	{
-		write(1, &c, 1);
-	}
-	write(1, "\n", 1);
+    char c;
+
+    while ((c = *str++))
+    {
+        write(1, &c, 1); /* 1 represents the file descriptor for stdout */
+    }
+    write(1, "\n", 1);
 }
