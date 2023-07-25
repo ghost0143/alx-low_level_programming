@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-    char password[PASSWORD_LENGTH + 1]; // +1 for the null terminator
+    char password[PASSWORD_LENGTH + 1]; /* +1 for the null terminator */
     int i;
 
     /* Seed the random number generator with the current time */
@@ -20,7 +20,7 @@ int main(void)
     /* Generate a random character for each position in the password */
     for (i = 0; i < PASSWORD_LENGTH; i++)
     {
-        int random_ascii = rand() % 94 + 33; // Generate a random ASCII value between 33 and 126 (printable characters)
+        int random_ascii = rand() % 94 + 33; /* Generate a random ASCII value between 33 and 126 (printable characters) */
         password[i] = (char)random_ascii;
     }
 
