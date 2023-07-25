@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * print_array Prints n elements of an array of integers followeg by new line.
+ * print_array Prints - n elements of array integers followeg by new line.
  * @a: The array of integers.
  * @n: The number of elements to be printed.
- * 
+ *
  * Description: This function prints the elements of the integer array 'a'
- * in the order they stored, followed by a new line. The number of elements
+ * in the order they stored, by a new line. The number of elements
  * to be printed is specified by the parameter 'n'.
  */
 void print_array(int *a, int n)
